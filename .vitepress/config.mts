@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Aspire Workshop",
   description: "Documentation for the DotNET Q1 Workshop",
-  base: "/repo/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
