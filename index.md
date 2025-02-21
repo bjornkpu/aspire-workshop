@@ -5,21 +5,9 @@ layout: home
 hero:
   name: "Aspire Workshop"
   text: "Documentation for the DotNET Q1 Workshop"
-  tagline: My great project tagline
+  tagline: .NET Aspire is an opinionated, cloud ready stack for building observable, production ready, distributed applications.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Get Started
+      link: /summary
 ---
-

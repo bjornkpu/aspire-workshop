@@ -6,20 +6,40 @@ export default defineConfig({
   description: "Documentation for the DotNET Q1 Workshop",
   base: "/aspire-workshop/",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Workshop Summary', link: '/summary' },
+          { text: 'Prerequisites', link: '/prerequisites' }
         ]
-      }
+      },
+      // {
+      //   text: 'What is .NET Aspire?',
+      //   items: [
+      //     { text: 'Introduction', link: '/aspire/introduction' }
+      //   ]
+      // },
+      // {
+      //   text: 'Sample Project',
+      //   items: [
+      //     { text: 'New Project', link: '/sample/new-project' },
+      //     { text: 'Dashboard', link: '/sample/dashboard' },
+      //     { text: 'Commands', link: '/sample/commands' },
+      //     { text: 'Messaging', link: '/sample/messaging' },
+      //   ]
+      // },
+      // {
+      //   text: 'MS Example Project',
+      //   items: [
+      //     { text: 'New Project', link: '/sample/new-project' },
+      //     { text: 'Dashboard', link: '/sample/dashboard' },
+      //     { text: 'Commands', link: '/sample/commands' },
+      //     { text: 'Messaging', link: '/sample/messaging' },
+      //   ]
+      // }
     ],
 
     socialLinks: [
