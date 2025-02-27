@@ -1,7 +1,5 @@
-import { defineConfig } from 'vitepress'
 import { withMermaid } from "vitepress-plugin-mermaid";
 
-// https://vitepress.dev/reference/site-config
 export default withMermaid ({
   title: "Aspire Workshop",
   description: "Documentation for the DotNET Q1 Workshop",
@@ -17,30 +15,35 @@ export default withMermaid ({
           { text: 'Prerequisites', link: '/prerequisites' }
         ]
       },
-      // {
-      //   text: 'What is .NET Aspire?',
-      //   items: [
-      //     { text: 'Introduction', link: '/aspire/introduction' }
-      //   ]
-      // },
-      // {
-      //   text: 'Sample Project',
-      //   items: [
-      //     { text: 'New Project', link: '/sample/new-project' },
-      //     { text: 'Dashboard', link: '/sample/dashboard' },
-      //     { text: 'Commands', link: '/sample/commands' },
-      //     { text: 'Messaging', link: '/sample/messaging' },
-      //   ]
-      // },
-      // {
-      //   text: 'MS Example Project',
-      //   items: [
-      //     { text: 'New Project', link: '/sample/new-project' },
-      //     { text: 'Dashboard', link: '/sample/dashboard' },
-      //     { text: 'Commands', link: '/sample/commands' },
-      //     { text: 'Messaging', link: '/sample/messaging' },
-      //   ]
-      // }
+      {
+        text: 'What is .NET Aspire?',
+        items: [
+          { text: 'Introduction', link: '/aspire/introduction' }
+        ]
+      },
+      {
+        text: 'Sample Project',
+        items: [
+          { text: 'New Project', link: '/sample/new-project' },
+          { text: 'Running .NET Aspire', link: '/sample/running-aspire' },
+          { text: 'Explore the application', link: '/sample/explore' }
+        ]
+      },
+      {
+        text: 'Aspire Sample Project',
+        items: [
+          { text: 'Aspire Sample', link: '/aspire-sample/aspire-sample' },
+          { text: 'SPAs', link: '/aspire-sample/spa' },
+          { text: 'Standalone', link: '/aspire-sample/standalone' },
+          { text: 'Aspire Shop', link: '/aspire-sample/aspire-shop' },
+          { text: 'Messaging', link: '/aspire-sample/messaging' },
+        ]
+      },
+      {
+        items: [
+          { text: 'References', link: '/references' },
+        ]
+      },
     ],
 
     socialLinks: [
