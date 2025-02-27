@@ -45,8 +45,6 @@ Let's take a look at the two projects
 ### AppHost
 The Aspire AppHost project is responsible for running our system during local development. Please note the words "system" and "local development". Aspire won't be going to production. Instead, it is here to help us orchestrate running our cloud-native distributed system. From APIs, to background services, databases and caches, Aspire will be responsible for running everything we need, and it will make sure that our services can talk to each other.
 
-As of now it only has the following 2 lines of code, but we will be adding many more.
-
 ```shell
 var builder = DistributedApplication.CreateBuilder(args);
 builder.Build().Run();
