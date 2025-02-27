@@ -49,5 +49,6 @@ export default withMermaid ({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bjornkpu/aspire-workshop' }
     ]
-  }
+  },
+  ignoreDeadLinks: 'localhostLinks'
 })
